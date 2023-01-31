@@ -1,0 +1,144 @@
+
+
+body{
+    background-color:lightgoldenrodyellow;
+}
+section{
+    height: 250px;
+    
+   
+    
+}
+
+section#hero{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+section#hero h1{
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+   
+}
+section#hero h2{
+    font-size: 1rem;
+}
+
+
+
+section#Informacion{
+    border: 5px solid navy;
+    background-color: white;
+    width: 350px;
+    height:350px ;
+    border-radius: 25px;
+    padding: 25px;
+    justify-content: center;
+         
+}
+section#Informacion img{
+    width: 80%;
+      
+}
+
+section#Informacion h3{
+    font-size: 2rem;
+    color: blue;
+    width: 100%;
+    justify-content: center;
+    
+
+}
+
+section#Informacion p{
+    font-weight: bolder;
+    color: red;
+    justify-content: center;
+    
+}
+
+section#Educación h1{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#Educación P{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight:lighter;
+    font-size: 1rem;
+}
+
+section#Presentacion h1{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#Presentacion P{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight:lighter;
+    font-size: 1rem;
+    
+}
+section#Objetivos h1{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+section#Objetivos P{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight:lighter;
+    font-size: 1rem;
+    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: grey;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 5px;
+
+}
+
+ 
